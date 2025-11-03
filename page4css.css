@@ -166,15 +166,15 @@ Styles spécifiques par page
 =========================== */
 
 /* Page 1 - Tactiques */
-#page1 {
+#index {
     background: linear-gradient(120deg, #a8e6cf, #dcedc1);
 }
 
-#page1 header {
+#index header {
     background: linear-gradient(90deg, #2e7d32, #43a047);
 }
 
-#page1 footer {
+#index footer {
     background: linear-gradient(90deg, #2e7d32, #43a047);
 }
 
