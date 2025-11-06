@@ -17,8 +17,14 @@ body {
     text-align: center;
     position: absolute;
     z-index: 1;
-     opacity: 0.5;
+    opacity: 0.5;
     
+}
+
+.cv {
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
 }
 
 .contenue {
@@ -204,6 +210,20 @@ Styles spécifiques par page
     background: linear-gradient(90deg, #1565c0, #1976d2);
 }
 
+#page3 .photo img {
+  padding: 0 0 0 70vh; /* ou -50px pour un décalage plus prononcé */
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  opacity: 0.3;
+  width: auto;
+  height: 100vh;
+
+}
+
+
+
 /* Page 4 - Technologie */
 #page4 {
     background: linear-gradient(120deg, #e1bee7, #f3e5f5);
@@ -214,7 +234,7 @@ Styles spécifiques par page
 }
 
 #page4 footer {
-    background: linear-gradient(90deg, #6a1b9a, #8e24aa);
+    background: linear-gradient(90deg, #741fa8, #8e24aa);
 }
 
 /* ===========================
